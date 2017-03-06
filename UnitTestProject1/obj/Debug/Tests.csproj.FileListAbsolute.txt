@@ -11,3 +11,16 @@ c:\users\jeanh\documents\visual studio 2015\Projects\Intergen.FluentFetchXMLHelp
 c:\users\jeanh\documents\visual studio 2015\Projects\Intergen.FluentFetchXMLHelper\UnitTestProject1\bin\Debug\Microsoft.Xrm.Sdk.xml
 c:\users\jeanh\documents\visual studio 2015\Projects\Intergen.FluentFetchXMLHelper\UnitTestProject1\obj\Debug\ACME.FluentFetchXMLHelper.Test.dll
 c:\users\jeanh\documents\visual studio 2015\Projects\Intergen.FluentFetchXMLHelper\UnitTestProject1\obj\Debug\ACME.FluentFetchXMLHelper.Test.pdb
+C:\Users\JeanH\Documents\Visual Studio 2015\Projects\ACME.FluentFetchXMLHelper\UnitTestProject1\bin\Debug\ACME.FluentFetchXMLHelper.Test.dll
+C:\Users\JeanH\Documents\Visual Studio 2015\Projects\ACME.FluentFetchXMLHelper\UnitTestProject1\bin\Debug\ACME.FluentFetchXMLHelper.Test.pdb
+C:\Users\JeanH\Documents\Visual Studio 2015\Projects\ACME.FluentFetchXMLHelper\UnitTestProject1\bin\Debug\ACME.FluentFetchXMLHelper.Model.dll
+C:\Users\JeanH\Documents\Visual Studio 2015\Projects\ACME.FluentFetchXMLHelper\UnitTestProject1\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+C:\Users\JeanH\Documents\Visual Studio 2015\Projects\ACME.FluentFetchXMLHelper\UnitTestProject1\bin\Debug\Microsoft.IdentityModel.dll
+C:\Users\JeanH\Documents\Visual Studio 2015\Projects\ACME.FluentFetchXMLHelper\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\JeanH\Documents\Visual Studio 2015\Projects\ACME.FluentFetchXMLHelper\UnitTestProject1\bin\Debug\Microsoft.Xrm.Sdk.dll
+C:\Users\JeanH\Documents\Visual Studio 2015\Projects\ACME.FluentFetchXMLHelper\UnitTestProject1\bin\Debug\ACME.FluentFetchXMLHelper.Model.pdb
+C:\Users\JeanH\Documents\Visual Studio 2015\Projects\ACME.FluentFetchXMLHelper\UnitTestProject1\bin\Debug\Microsoft.Crm.Sdk.Proxy.xml
+C:\Users\JeanH\Documents\Visual Studio 2015\Projects\ACME.FluentFetchXMLHelper\UnitTestProject1\bin\Debug\Microsoft.Xrm.Sdk.xml
+C:\Users\JeanH\Documents\Visual Studio 2015\Projects\ACME.FluentFetchXMLHelper\UnitTestProject1\obj\Debug\Tests.csprojResolveAssemblyReference.cache
+C:\Users\JeanH\Documents\Visual Studio 2015\Projects\ACME.FluentFetchXMLHelper\UnitTestProject1\obj\Debug\ACME.FluentFetchXMLHelper.Test.dll
+C:\Users\JeanH\Documents\Visual Studio 2015\Projects\ACME.FluentFetchXMLHelper\UnitTestProject1\obj\Debug\ACME.FluentFetchXMLHelper.Test.pdb

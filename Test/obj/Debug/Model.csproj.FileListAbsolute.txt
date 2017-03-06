@@ -9,3 +9,14 @@ c:\users\jeanh\documents\visual studio 2015\Projects\Intergen.FluentFetchXMLHelp
 c:\users\jeanh\documents\visual studio 2015\Projects\Intergen.FluentFetchXMLHelper\Test\bin\Debug\Microsoft.Xrm.Sdk.xml
 c:\users\jeanh\documents\visual studio 2015\Projects\Intergen.FluentFetchXMLHelper\Test\obj\Debug\ACME.FluentFetchXMLHelper.Model.dll
 c:\users\jeanh\documents\visual studio 2015\Projects\Intergen.FluentFetchXMLHelper\Test\obj\Debug\ACME.FluentFetchXMLHelper.Model.pdb
+C:\Users\JeanH\Documents\Visual Studio 2015\Projects\ACME.FluentFetchXMLHelper\Test\bin\Debug\ACME.FluentFetchXMLHelper.Model.dll.config
+C:\Users\JeanH\Documents\Visual Studio 2015\Projects\ACME.FluentFetchXMLHelper\Test\bin\Debug\ACME.FluentFetchXMLHelper.Model.dll
+C:\Users\JeanH\Documents\Visual Studio 2015\Projects\ACME.FluentFetchXMLHelper\Test\bin\Debug\ACME.FluentFetchXMLHelper.Model.pdb
+C:\Users\JeanH\Documents\Visual Studio 2015\Projects\ACME.FluentFetchXMLHelper\Test\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+C:\Users\JeanH\Documents\Visual Studio 2015\Projects\ACME.FluentFetchXMLHelper\Test\bin\Debug\Microsoft.IdentityModel.dll
+C:\Users\JeanH\Documents\Visual Studio 2015\Projects\ACME.FluentFetchXMLHelper\Test\bin\Debug\Microsoft.Xrm.Sdk.dll
+C:\Users\JeanH\Documents\Visual Studio 2015\Projects\ACME.FluentFetchXMLHelper\Test\bin\Debug\Microsoft.Crm.Sdk.Proxy.xml
+C:\Users\JeanH\Documents\Visual Studio 2015\Projects\ACME.FluentFetchXMLHelper\Test\bin\Debug\Microsoft.Xrm.Sdk.xml
+C:\Users\JeanH\Documents\Visual Studio 2015\Projects\ACME.FluentFetchXMLHelper\Test\obj\Debug\Model.csprojResolveAssemblyReference.cache
+C:\Users\JeanH\Documents\Visual Studio 2015\Projects\ACME.FluentFetchXMLHelper\Test\obj\Debug\ACME.FluentFetchXMLHelper.Model.dll
+C:\Users\JeanH\Documents\Visual Studio 2015\Projects\ACME.FluentFetchXMLHelper\Test\obj\Debug\ACME.FluentFetchXMLHelper.Model.pdb

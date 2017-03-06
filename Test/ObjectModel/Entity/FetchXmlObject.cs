@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using System.Xml;
 using System.Xml.Serialization;
 
-namespace ACME.FluentFetchXMLHelper.Model.ObjectModel
+namespace ACME.FluentFetchXMLHelper.Model
 {
     [Serializable]
     //[XmlInclude(typeof(BaseCondition))]

@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Serialization;
 
-namespace Tofi9.FetchXml.ObjectModel
+namespace ACME.FluentFetchXMLHelper.Model
 {
     [Serializable]
     public class FetchEntity

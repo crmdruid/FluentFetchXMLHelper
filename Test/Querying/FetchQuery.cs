@@ -4,7 +4,6 @@ using System.Linq;
 using Microsoft.Xrm.Sdk;
 using Microsoft.Xrm.Sdk.Query;
 using ACME.FluentFetchXMLHelper.Model;
-using ACME.FluentFetchXMLHelper.Model.ObjectModel;
 
 namespace ACME.FluentFetchXMLHelper.Model.Querying
 {
@@ -28,7 +27,7 @@ namespace ACME.FluentFetchXMLHelper.Model.Querying
 
         public FetchQuery Attributes(params string[] attributes)
         {
-            fetch.Entity.Attributes.AddRange(attributes.Select(x => new ACME.FluentFetchXMLHelper.Model.Attribute { Name = x }));
+            fetch.Entity.Attributes.AddRange(attributes.Select(x => new Model.Attribute { Name = x }));
             return this;
         }
 
