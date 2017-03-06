@@ -1,12 +1,11 @@
-﻿using Intergen.FetchXml.ObjectModel;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Serialization;
 
-namespace Tofi9.FetchXml.ObjectModel
+namespace ACME.FluentFetchXMLHelper.Model
 {
     [Serializable]
     public class Condition : BaseCondition

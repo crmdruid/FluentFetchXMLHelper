@@ -1,14 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Intergen.FetchXml.ObjectModel;
 using Microsoft.Xrm.Sdk;
 using Microsoft.Xrm.Sdk.Query;
-using Tofi9.FetchXml.ObjectModel;
+using ACME.FluentFetchXMLHelper.Model;
+using ACME.FluentFetchXMLHelper.Model.ObjectModel;
 
-namespace Intergen.FetchXml.Querying
+namespace ACME.FluentFetchXMLHelper.Model.Querying
 {
     public class FetchQuery
     {
@@ -30,7 +28,7 @@ namespace Intergen.FetchXml.Querying
 
         public FetchQuery Attributes(params string[] attributes)
         {
-            fetch.Entity.Attributes.AddRange(attributes.Select(x => new Tofi9.FetchXml.ObjectModel.Attribute { Name = x }));
+            fetch.Entity.Attributes.AddRange(attributes.Select(x => new ACME.FluentFetchXMLHelper.Model.Attribute { Name = x }));
             return this;
         }
 

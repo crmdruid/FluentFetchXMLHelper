@@ -1,10 +1,9 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Intergen.FetchXml.Querying;
 using Microsoft.Xrm.Sdk;
 using System.Collections.Generic;
-using Intergen.FetchXml.ObjectModel;
-using Tofi9.FetchXml.ObjectModel;
+using ACME.FluentFetchXMLHelper.Model;
+using ACME.FluentFetchXMLHelper.Model.Querying;
 
 namespace Intergen.FetchXml.Tests
 {

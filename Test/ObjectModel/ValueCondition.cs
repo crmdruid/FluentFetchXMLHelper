@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Tofi9.FetchXml.ObjectModel
+namespace ACME.FluentFetchXMLHelper.Model
 {
     [Serializable]
     public class ValueCondition : BaseCondition

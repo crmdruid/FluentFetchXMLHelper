@@ -3,10 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Intergen.FetchXml.ObjectModel;
-using Tofi9.FetchXml.ObjectModel;
 
-namespace Intergen.FetchXml.Querying
+namespace ACME.FluentFetchXMLHelper.Model.Querying
 {
     public class FetchFilter
     {

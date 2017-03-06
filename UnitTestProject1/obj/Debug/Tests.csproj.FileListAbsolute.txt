@@ -1,0 +1,13 @@
+c:\users\jeanh\documents\visual studio 2015\Projects\Intergen.FluentFetchXMLHelper\UnitTestProject1\obj\Debug\Tests.csprojResolveAssemblyReference.cache
+c:\users\jeanh\documents\visual studio 2015\Projects\Intergen.FluentFetchXMLHelper\UnitTestProject1\bin\Debug\ACME.FluentFetchXMLHelper.Test.dll
+c:\users\jeanh\documents\visual studio 2015\Projects\Intergen.FluentFetchXMLHelper\UnitTestProject1\bin\Debug\ACME.FluentFetchXMLHelper.Test.pdb
+c:\users\jeanh\documents\visual studio 2015\Projects\Intergen.FluentFetchXMLHelper\UnitTestProject1\bin\Debug\ACME.FluentFetchXMLHelper.Model.dll
+c:\users\jeanh\documents\visual studio 2015\Projects\Intergen.FluentFetchXMLHelper\UnitTestProject1\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+c:\users\jeanh\documents\visual studio 2015\Projects\Intergen.FluentFetchXMLHelper\UnitTestProject1\bin\Debug\Microsoft.IdentityModel.dll
+c:\users\jeanh\documents\visual studio 2015\Projects\Intergen.FluentFetchXMLHelper\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+c:\users\jeanh\documents\visual studio 2015\Projects\Intergen.FluentFetchXMLHelper\UnitTestProject1\bin\Debug\Microsoft.Xrm.Sdk.dll
+c:\users\jeanh\documents\visual studio 2015\Projects\Intergen.FluentFetchXMLHelper\UnitTestProject1\bin\Debug\ACME.FluentFetchXMLHelper.Model.pdb
+c:\users\jeanh\documents\visual studio 2015\Projects\Intergen.FluentFetchXMLHelper\UnitTestProject1\bin\Debug\Microsoft.Crm.Sdk.Proxy.xml
+c:\users\jeanh\documents\visual studio 2015\Projects\Intergen.FluentFetchXMLHelper\UnitTestProject1\bin\Debug\Microsoft.Xrm.Sdk.xml
+c:\users\jeanh\documents\visual studio 2015\Projects\Intergen.FluentFetchXMLHelper\UnitTestProject1\obj\Debug\ACME.FluentFetchXMLHelper.Test.dll
+c:\users\jeanh\documents\visual studio 2015\Projects\Intergen.FluentFetchXMLHelper\UnitTestProject1\obj\Debug\ACME.FluentFetchXMLHelper.Test.pdb
