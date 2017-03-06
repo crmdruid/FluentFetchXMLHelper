@@ -13,6 +13,6 @@ namespace ACME.FluentFetchXMLHelper.Model
         //[XmlArrayItem(ElementName = "value", Namespace = "")]
         //public string[] Value { get; set; }
         [XmlElement("value")]
-        public List<ValueConditionSection> values { get; set; }
+        public string[] values { get; set; }
     }
 }

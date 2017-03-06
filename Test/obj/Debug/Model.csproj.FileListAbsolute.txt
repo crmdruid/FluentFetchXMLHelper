@@ -17,6 +17,5 @@ C:\Users\JeanH\Documents\Visual Studio 2015\Projects\ACME.FluentFetchXMLHelper\T
 C:\Users\JeanH\Documents\Visual Studio 2015\Projects\ACME.FluentFetchXMLHelper\Test\bin\Debug\Microsoft.Xrm.Sdk.dll
 C:\Users\JeanH\Documents\Visual Studio 2015\Projects\ACME.FluentFetchXMLHelper\Test\bin\Debug\Microsoft.Crm.Sdk.Proxy.xml
 C:\Users\JeanH\Documents\Visual Studio 2015\Projects\ACME.FluentFetchXMLHelper\Test\bin\Debug\Microsoft.Xrm.Sdk.xml
-C:\Users\JeanH\Documents\Visual Studio 2015\Projects\ACME.FluentFetchXMLHelper\Test\obj\Debug\Model.csprojResolveAssemblyReference.cache
 C:\Users\JeanH\Documents\Visual Studio 2015\Projects\ACME.FluentFetchXMLHelper\Test\obj\Debug\ACME.FluentFetchXMLHelper.Model.dll
 C:\Users\JeanH\Documents\Visual Studio 2015\Projects\ACME.FluentFetchXMLHelper\Test\obj\Debug\ACME.FluentFetchXMLHelper.Model.pdb

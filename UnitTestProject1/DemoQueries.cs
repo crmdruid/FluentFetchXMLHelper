@@ -5,13 +5,13 @@ using System.Collections.Generic;
 using ACME.FluentFetchXMLHelper.Model;
 using ACME.FluentFetchXMLHelper.Model.Querying;
 
-namespace Intergen.FetchXml.Tests
+namespace ACME.FetchXml.Tests
 {
     [TestClass]
-    public class DemoQueries
+    public class TestQueries
     {
         [TestMethod]
-        public void DemoAttributes()
+        public void Selected_Attributes_With_Greater_Than()
         {
             var query = new FetchQuery("lead")
                 .Filter(f => f.Gt("budgetamount", 5000))
@@ -23,7 +23,7 @@ namespace Intergen.FetchXml.Tests
         }
 
         [TestMethod]
-        public void DemoFilter()
+        public void All_Attributes_With_Or_Equal_Or_Like()
         {
             var query = new FetchQuery("contact")
                 .Attributes("firstname", "lastname", "fullname")
@@ -42,39 +42,31 @@ namespace Intergen.FetchXml.Tests
         }
 
         [TestMethod]
-        public void TestValueCondition()
+        public void All_Attributes_In()
         {
             string[] _statuscodes = new string[] { "1", "2", "3" };
 
-            var test = new ValueConditionSection();
-            test.Value = "1";
-
-            var test2 = new ValueConditionSection();
-            test2.Value = "2";
-
-            var _statuscode = new List<ValueConditionSection>();
-            _statuscode.Add(test);
-            _statuscode.Add(test2);
-
-
             var query = new FetchQuery("new_annualreturn")
-                         .Filter(f2 => f2.In("statuscode", _statuscode))
+                         .Filter(f2 => f2.In("statuscode", _statuscodes))
                             .AllAttributes();
 
             var fetchxml = query.ToString();
 
-            Assert.AreEqual(@"<fetch top=""10"">
-    <entity name=""new_annualreturn"" >
-        <filter>
-            <condition attribute=""statuscode"" operator=""in"" >
-                <value>1</value>
-                <value>2</value>
-                <value>3</value>
-                <value>4</value>
-            </condition>
-        </filter>
-    </entity>
-</fetch>", fetchxml);
+            Assert.AreEqual(@"<?xml version=""1.0"" encoding=""utf-16""?><fetch><entity name=""new_annualreturn""><filter><condition attribute=""statuscode"" operator=""in""><value>1</value><value>2</value><value>3</value></condition></filter><all-attributes /></entity></fetch>", fetchxml);
+        }
+
+        [TestMethod]
+        public void All_Attributes_NotIn()
+        {
+            string[] _statuscodes = new string[] { "3", "10", "200" };
+
+            var query = new FetchQuery("new_annualreturn")
+                            .Filter(f => f.NotIn("statuscode",_statuscodes))
+                             .AllAttributes();
+
+            var fetchxml = query.ToString();
+
+            Assert.AreEqual(@"<?xml version=""1.0"" encoding=""utf-16""?><fetch><entity name=""new_annualreturn""><filter><condition attribute=""statuscode"" operator=""not-in""><value>3</value><value>10</value><value>200</value></condition></filter><all-attributes /></entity></fetch>", fetchxml);
         }
     }
 }

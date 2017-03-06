@@ -47,7 +47,7 @@ namespace ACME.FluentFetchXMLHelper.Model.Querying
             return this;
         }
 
-        public FetchFilter ValueCondition(string attribute, ConditionOperator op, List<ValueConditionSection> values)
+        public FetchFilter ValueCondition(string attribute, ConditionOperator op, string[] values)
         {
             filter.Conditions.Add(new ValueCondition
             {
@@ -70,18 +70,41 @@ namespace ACME.FluentFetchXMLHelper.Model.Querying
             return this;
         }
 
+        /// <summary>
+        /// Filter values where it is like in object
+        /// </summary>
+        /// <param name="attribute">The CRM field name</param>
+        /// <param name="value">Object value</param>
+        /// <returns></returns>
         public FetchFilter Like(string attribute, object value)
         {
             Condition(attribute, ConditionOperator.Like, value);
             return this;
         }
 
-        public FetchFilter In(string attribute, List<ValueConditionSection> values)
+        /// <summary>
+        /// Filter values where it is in an string array
+        /// </summary>
+        /// <param name="attribute">The CRM field name</param>
+        /// <param name="values">The string array of values of the field to filter with</param>
+        /// <returns></returns>
+        public FetchFilter In(string attribute, string[] values)
         {
             ValueCondition(attribute, ConditionOperator.In, values);
             return this;
         }
 
+        /// <summary>
+        /// Filter values where it is not in a string array
+        /// </summary>
+        /// <param name="attribute">The CRM field name</param>
+        /// <param name="values">The string array of values of the field to filter with</param>
+        /// <returns></returns>
+        public FetchFilter NotIn(string attribute, string[] values)
+        {
+            ValueCondition(attribute, ConditionOperator.NotIn, values);
+            return this;
+        }
 
         public static void Apply(Filter filter, Action<FetchFilter> filterFn)
         {
